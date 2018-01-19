@@ -1,0 +1,14 @@
+<view>
+  <view>
+    <label class='title'>标题</label>
+    <input class='content' placeholder='请输入标题' bindinput='titval'></input>
+  </view>
+
+  <view>
+    <label class='title'>内容</label>
+    <textarea class='content' placeholder='请输入内容' bindinput='conval'></textarea>
+  </view>
+</view>
+
+<view>
+<button class='add' type='primary' size='mini' bindtap='sure'>确认添加</button></view>

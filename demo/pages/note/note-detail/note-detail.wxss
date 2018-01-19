@@ -1,0 +1,11 @@
+.content{
+  border: 1px solid pink;
+  margin: 20rpx;
+}
+.title{
+  margin: 20rpx;
+}
+
+.add{
+  margin-left: 20rpx;
+}

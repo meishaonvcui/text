@@ -1,0 +1,30 @@
+<view>
+  <view class='search'>
+    <view class='search-bar'>
+      <input placeholder='搜索' bindinput='valToSearch'></input>
+    </view>
+    <text class='cancel'>取消</text>
+  </view>
+
+  <view>
+    <!--未搜索到内容时 展示历史搜索页面-->
+    <view wx:if='{{flag}}'>
+      <view>
+        <text>历史记录</text>
+        <text>清除历史</text>
+      </view>
+    </view>
+    <!--搜索到的页面-->
+    <view wx:else class='search-page-movies'>
+      <block wx:for='{{movies}}' wx:for-item='movie'>
+        <view class='search-page-container'>
+          <image src='{{movie.image}}' class='search-page-img'></image>
+          <view class='search-page-content'>
+            <text>{{movie.title}}</text>
+            <text>{{movie.average}} / {{movie.year}}</text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

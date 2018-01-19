@@ -1,0 +1,21 @@
+.movie-list-container{
+  display: flex;
+  flex-direction: row;
+}
+.movie-list{
+  width: 750rpx;
+  overflow: hidden;
+}
+.more{
+  float: right;
+  color: #41be58;
+  margin-right: 16rpx;
+}
+.movie-list-bar{
+  height: 80rpx;
+  line-height: 80rpx; 
+  margin-left: 16rpx;
+}
+.movie-item-num{
+  font-size: 17rpx;
+}

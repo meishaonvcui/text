@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/note/note",
+    "pages/note/note-detail/note-detail",
+    "pages/home/detail/detail",
+    "pages/list/list"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f1f1f1",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "index"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color":"#000000",
+    "selectedColor":"red",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "主页"
+    },
+    {
+      "pagePath": "pages/note/note",
+      "text": "留言板"
+    }]
+  }
+}

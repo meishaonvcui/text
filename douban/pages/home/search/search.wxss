@@ -1,0 +1,16 @@
+.search{
+  background-color: #41be58;
+  padding: 28rpx 17rpx;
+}
+.search-bar{
+  background-color: #ffffff;
+  height: 58rpx;
+  line-height: 58rpx;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.search-bar text{
+  font-size: 26rpx;
+  color: #666666;
+ 
+}

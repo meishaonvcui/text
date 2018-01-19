@@ -1,0 +1,9 @@
+<template name='star'>
+  <view class='star'>
+    <block wx:for='{{stars}}' wx:for-item='i'>
+      <image wx:if='{{i}}' src='/images/rating-star.png'></image>
+      <image wx:else src='/images/unrating-star.png'></image>
+    </block>
+    <text class='movie-item-num'>{{average}}</text>
+  </view>
+</template>

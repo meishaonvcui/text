@@ -1,0 +1,14 @@
+<import src='temp/temp.wxml' />
+
+<swiper style="height:300rpx" autoplay='{{true}}' interval='2000' indicator-dots='{{true}}' circular='{{true}}' indicator-active-color='white'>
+  <swiper-item wx:for='{{imgs}}'>
+    <image src='{{item}}'></image>
+  </swiper-item>
+</swiper>
+
+<block wx:for='{{lists}}'>
+  <view bindtap='godetail' data-uid='{{item.id}}'>
+    <template is='list' data='{{item}}'></template>
+  </view>
+
+</block>

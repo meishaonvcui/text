@@ -1,0 +1,2 @@
+<import src='../temp/temp.wxml'/>
+<template is='list' data='{{item}}'></template>

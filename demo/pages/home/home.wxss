@@ -1,0 +1,10 @@
+@import "temp/temp.wxss";
+swiper-item{
+  width: 100%;
+  height: 300rpx;
+}
+swiper-item,image{
+  width: 100%;
+  height: 100%;
+}
+

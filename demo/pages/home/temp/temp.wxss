@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  border-bottom: 1px solid #000000;
+}
+.left,.right{
+  display: flex;
+  flex-direction: column;
+}
+.left{
+  width: 250rpx;
+  align-items: center;
+}
+.left image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}

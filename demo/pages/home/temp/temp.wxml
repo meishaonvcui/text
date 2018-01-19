@@ -1,0 +1,12 @@
+<template name='list'>
+  <view class='container'>
+    <view class='left'>
+      <image src='{{item.avatar}}'></image>
+      <text>{{item.name}}</text>
+    </view>
+    <view class='right'>
+      <text>{{item.title}}</text>
+      <text>{{item.content}}</text>
+    </view>
+  </view>
+</template>

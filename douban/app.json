@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/home/detail/detail",
+    "pages/home/search-page/search-page"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#41be58",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "豆瓣评分"
+  }
+}

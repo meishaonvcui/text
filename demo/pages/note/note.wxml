@@ -1,0 +1,13 @@
+<scroll-view scroll-y='{{true}}' style='height:800rpx'>
+  <block wx:for='{{notes}}'>
+    <view class='container'>
+      <text>{{item.title}}</text>
+      <text>{{item.content}}</text>
+    </view>
+  </block>
+</scroll-view>
+
+<view class='btn'>
+  <button type='warn' size='mini'>清除</button>
+  <button type='primary' size='mini' bindtap='addnote'> 增加</button>
+</view>

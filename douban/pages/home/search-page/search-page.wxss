@@ -1,0 +1,40 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  background-color: #41be57;
+  padding: 28rpx 0 28rpx 17rpx;
+}
+
+.search-bar {
+  height: 58rpx;
+  line-height: 58rpx;
+  width: 88%;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding-left: 10rpx;
+}
+
+.cancel {
+  width: 12%;
+  color: #fff;
+  height: 58rpx;
+  line-height: 58rpx;
+  text-align: center;
+}
+
+.search-page-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx 25rpx;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.search-page-img {
+  width: 68rpx;
+  height: 78rpx;
+}
+
+.search-page-content ,.search-page-movies{
+  display: flex;
+  flex-direction: column;
+}
